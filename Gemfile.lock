@@ -22,6 +22,9 @@ GEM
       xpath (~> 2.0)
     coderay (1.1.2)
     concurrent-ruby (1.1.5)
+    corneal (1.2.3)
+      activesupport (~> 5.0)
+      thor (~> 0.18)
     diff-lcs (1.3)
     i18n (1.6.0)
       concurrent-ruby (~> 1.0)
@@ -80,6 +83,7 @@ GEM
       sinatra-contrib
     slop (3.6.0)
     sqlite3 (1.4.1)
+    thor (0.20.3)
     thread_safe (0.3.6)
     tilt (1.4.1)
     tzinfo (1.2.5)
@@ -93,13 +97,14 @@ PLATFORMS
 DEPENDENCIES
   activerecord
   capybara (= 2.5.0)
+  corneal
   pry (= 0.10.3)
   rack-test (>= 0.5.4)
   rake (= 10.4.2)
   require_all (= 1.3.2)
   rspec (= 3.3.0)
   shotgun (= 0.9)
-  sinatra
+  sinatra (= 1.4.5)
   sinatra-activerecord
   sinatra-fix_951
   sinatra-reloader
